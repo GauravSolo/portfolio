@@ -1,0 +1,17 @@
+.about {
+  background: var(--color-bg-alt);
+}
+
+.text {
+  font-size: var(--font-size-xl);
+  color: var(--color-text-light);
+  line-height: 1.9;
+  text-align: justify;
+  max-width: 1000px;
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: var(--font-size-base);
+  }
+}

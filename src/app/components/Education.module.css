@@ -1,0 +1,54 @@
+.education {
+  background: var(--color-bg-alt);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.item {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-2xl);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.school {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+}
+
+.location {
+  font-size: var(--font-size-base);
+  color: var(--color-text-light);
+  padding-top: 0.25rem;
+}
+
+.degree {
+  color: var(--color-text-light);
+  font-size: var(--font-size-lg);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.date {
+  font-size: var(--font-size-base);
+  color: var(--color-accent);
+  font-weight: 500;
+}
