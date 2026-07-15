@@ -3,7 +3,7 @@ import styles from './Skills.module.css';
 const SKILL_GROUPS = [
   {
     title: 'Languages',
-    skills: ['TypeScript', 'JavaScript', 'Java', 'PHP', 'SQL'],
+    skills: ['TypeScript', 'JavaScript', 'Java', 'Python', 'PHP', 'SQL'],
   },
   {
     title: 'Frameworks',
@@ -11,19 +11,19 @@ const SKILL_GROUPS = [
   },
   {
     title: 'Cloud & DevOps',
-    skills: ['AWS (Lambda)', 'Terraform', 'GitHub Actions', 'Docker', 'CI/CD'],
+    skills: ['GCP', 'Kubernetes', 'AWS (Lambda)', 'Terraform', 'Spinnaker', 'Docker', 'GitHub Actions', 'CI/CD'],
   },
   {
     title: 'Databases',
-    skills: ['PostgreSQL', 'Supabase', 'Redis', 'ChromaDB', 'BigQuery'],
+    skills: ['PostgreSQL', 'BigQuery', 'Supabase', 'Redis', 'ChromaDB'],
   },
   {
     title: 'AI & Systems',
     skills: ['LLM Applications', 'AI Agents', 'RAG', 'STT/TTS Pipelines', 'Vector Databases'],
   },
   {
-    title: 'Tools',
-    skills: ['Git', 'Linux', 'Kafka', 'Maven', 'Flyway'],
+    title: 'Observability & Tools',
+    skills: ['Langfuse', 'KEDA', 'Datastream', 'Metabase', 'Kafka', 'Git', 'Linux'],
   },
 ];
 

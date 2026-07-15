@@ -7,11 +7,11 @@ export default function Hero() {
         <div className={styles.content}>
           <p className={styles.greeting}>Hi, my name is</p>
           <h1 className={styles.name}>Gaurav Sharma</h1>
-          <h2 className={styles.title}>Full Stack Developer</h2>
+          <h2 className={styles.title}>Software Engineer</h2>
           <p className={styles.tagline}>
-            I build scalable web applications with Java, JavaScript, React.js,
-            Spring Boot, and modern cloud technologies. Certified in Oracle
-            Cloud AI Foundations.
+            I build scalable applications with Java, JavaScript, React.js, and
+            Spring Boot, with hands-on expertise in Kubernetes, GCP, and
+            real-time AI pipelines. Certified in Oracle Cloud AI Foundations.
           </p>
           <div className={styles.buttons}>
             <a
@@ -38,16 +38,18 @@ export default function Hero() {
             </div>
             <pre className={styles.code}><code>{
 `const gaurav = {
-  role: "Full Stack Developer",
-  languages: ["Java", "JavaScript",
-              "PHP", "C"],
-  frontend:  ["React.js", "TypeScript",
-              "Next.js", "Tailwind"],
-  backend:   ["Spring Boot", "Node.js"],
-  databases: ["PostgreSQL", "MySQL",
-              "Supabase", "Redis"],
-  cloud:     ["AWS", "Terraform",
-              "Docker"],
+  role: "Software Engineer",
+  languages: ["TypeScript", "JavaScript",
+              "Java", "Python"],
+  frontend:  ["React.js", "Next.js",
+              "Node.js"],
+  backend:   ["Spring Boot", "Express.js"],
+  cloud:     ["GCP", "Kubernetes",
+              "Terraform", "Docker"],
+  data:      ["PostgreSQL", "BigQuery",
+              "Redis"],
+  ai:        ["LLM Apps", "RAG",
+              "AI Agents"],
   passion:   "Building products that scale"
 };`
             }</code></pre>

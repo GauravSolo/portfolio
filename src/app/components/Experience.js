@@ -2,7 +2,29 @@ import styles from './Experience.module.css';
 
 const EXPERIENCES = [
   {
-    role: 'Founding Engineer',
+    role: 'SDE Intern',
+    company: 'Arintra (YC W22, Series B)',
+    location: 'Onsite - Bangalore',
+    date: 'Apr 2026 - Present',
+    bullets: [
+      'Built production pipelines using Kubernetes manifests and Spinnaker.',
+      'Implemented Langfuse tracing, KEDA integration, and Terraform-based alerting for observability.',
+      'Setup Datastream CDC to BigQuery, built a cross-env data sync pipeline, and Metabase database connections.',
+    ],
+    tags: [
+      'Python',
+      'Docker',
+      'Kubernetes',
+      'GCP',
+      'Terraform',
+      'GitHub Actions',
+      'Langfuse',
+      'Datastream',
+      'Jira Automation',
+    ],
+  },
+  {
+    role: 'Software Engineer',
     company: 'Superreply',
     location: 'Remote - Bangalore',
     date: 'Dec 2025 - Feb 2026',
@@ -26,7 +48,7 @@ const EXPERIENCES = [
   },
   {
     role: 'Full-Stack Engineer Intern',
-    company: 'Zuddl (YC-20)',
+    company: 'Zuddl (YC S20, Series A)',
     location: 'Remote - Abu Dhabi',
     date: 'Feb 2025 - Aug 2025',
     bullets: [

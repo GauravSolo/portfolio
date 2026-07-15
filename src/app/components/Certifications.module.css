@@ -1,0 +1,42 @@
+.certifications {
+  background: var(--color-bg-alt);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-lg);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg) var(--spacing-xl);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.icon {
+  font-size: var(--font-size-2xl);
+  line-height: 1.2;
+  flex-shrink: 0;
+}
+
+.cardTitle {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+}
+
+.detail {
+  color: var(--color-text-light);
+  font-size: var(--font-size-base);
+}

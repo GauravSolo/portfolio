@@ -4,9 +4,9 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Gaurav Sharma | Full Stack Developer',
+  title: 'Gaurav Sharma | Software Engineer',
   description:
-    'Portfolio of Gaurav Sharma — Full Stack Developer specializing in React, Node.js, and modern web technologies.',
+    'Portfolio of Gaurav Sharma — Software Engineer skilled in Java, JavaScript, React.js, and Spring Boot, with hands-on expertise in Kubernetes, GCP, and AI pipelines.',
 };
 
 export default function RootLayout({ children }) {
